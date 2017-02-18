@@ -6,11 +6,11 @@
 
 ## 下载地址
 
-[![Build Status](https://travis-ci.org/Bilibili/boxing.svg?branch=master)](https://travis-ci.org/Bilibili/boxing)
+[![](https://jitpack.io/v/NingOpenSource/EasyStaffPicker.svg)](https://jitpack.io/#NingOpenSource/EasyStaffPicker)
 
 ## Example
 
-![multi_image](screenshot/device-2017-02-18-115329.gif =320x500)
+![multi_image](screenshot/device-2017-02-18-115329.gif)
 
 下载地址：[example-debug.apk](https://raw.githubusercontent.com/NingOpenSource/EasyStaffPicker/master/screenshot/example-debug.apk)
 
