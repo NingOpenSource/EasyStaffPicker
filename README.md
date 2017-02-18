@@ -42,6 +42,52 @@
                 EasyStaffPicker:staff_unit_value="10dp" />
 
 ```
+EasyStaffPicker属性对应的作用：
+```
+
+    <declare-styleable name="EasyStaffPicker">
+        <!--标尺的滚动方向是否为水平方向-->
+        <attr name="isHorizontal" format="boolean" />
+        <!--标尺是否为倒叙-->
+        <attr name="isReverseOrder" format="boolean" />
+        <!--标尺的刻度与刻度之间的屏幕距离-->
+        <attr name="staff_unit_value" format="dimension"></attr>
+        <!--标尺每一格刻度的实际单位（一般为物理单位）名称-->
+        <attr name="staff_unit_name" format="string"></attr>
+        <!--标尺上起始位置的实际（物理）值-->
+        <attr name="staff_start" format="integer"></attr>
+        <!--标尺上结束位置的实际（物理）值-->
+        <attr name="staff_end" format="integer"></attr>
+        <!--标尺单位刻度线的屏幕上的宽度-->
+        <attr name="staff_line_width" format="dimension"></attr>
+        <!--标尺上普通刻度线（一级刻度线）的屏幕宽度-->
+        <attr name="staff_unit_line_width" format="dimension"></attr>
+        <!--标尺上用于显示单位刻度的刻度线（三级刻度线）屏幕宽度-->
+        <attr name="staff_unit_tag_line_width" format="dimension"></attr>
+        <!--标尺上一个用于显示单位刻度的刻度线（三级刻度线）所代表的的实际值（物理值）-->
+        <attr name="staff_unit_tag_space_num" format="integer"></attr>
+        <!--标尺上一个中等刻度线（二级刻度线）所代表的的实际值（物理值）-->
+        <attr name="staff_unit_sencodary_tag_space_num" format="integer"></attr>
+        <!--标尺上中等刻度线（二级刻度线）屏幕上的宽度-->
+        <attr name="staff_unit_sencodary_tag_line_width" format="dimension"></attr>
+        <!--标尺上普通刻度线（一级刻度线）的屏幕长度-->
+        <attr name="staff_unit_line_size" format="dimension"></attr>
+        <!--标尺上用于显示单位刻度的刻度线（三级刻度线）的屏幕长度-->
+        <attr name="staff_unit_tag_line_size" format="dimension"></attr>
+        <!--标尺上中等的单位刻度线（二级刻度线）的屏幕长度-->
+        <attr name="staff_secondary_unit_tag_line_size" format="dimension"></attr>
+        <!--标尺上刻度线的颜色-->
+        <attr name="staff_unit_line_color" format="color"></attr>
+        <!--标尺上显示的刻度值的字体颜色-->
+        <attr name="staff_unit_tag_textColor" format="color"></attr>
+        <!--标尺上显示的刻度值的字体大小-->
+        <attr name="staff_unit_tag_textSize" format="dimension"></attr>
+        <!--标尺三角指针的颜色-->
+        <attr name="staff_guide_color" format="color"></attr>
+    </declare-styleable>
+
+```
+
 
 ## 回调监听
 
