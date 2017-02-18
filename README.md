@@ -122,7 +122,7 @@ EasyStaffPicker属性对应的作用：
 
 ```
 
-EasyScrollStaffPicker easyScrollStaffPicker=(EasyScrollStaffPicker)findViewById(R.id.scrollStaffPickerView);
+		EasyScrollStaffPicker easyScrollStaffPicker=(EasyScrollStaffPicker)findViewById(R.id.scrollStaffPickerView);
         easyScrollStaffPicker.setOnStaffValueChangeListener(new EasyScrollStaffPicker.OnStaffValueChangeListener() {
 
             @Override
