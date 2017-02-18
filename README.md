@@ -10,7 +10,7 @@
 
 ## Example
 
-![multi_image](screenshot/device-2017-02-18-115329.gif)
+![multi_image](screenshot/device-2017-02-18-115329.gif =320x500)
 
 下载地址：[example-debug.apk](https://raw.githubusercontent.com/NingOpenSource/EasyStaffPicker/master/screenshot/example-debug.apk)
 
